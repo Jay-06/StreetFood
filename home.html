@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Menu - Fast Online Street Food</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="home.html" class="logo">Street Food</a>
+        <div style="flex:1; margin: 0 20px;">
+            <form action="search.html" method="GET" style="flex:1; margin: 0 20px; display:flex;">
+                
+                <button type="submit" style="border:none; background:white; padding:0 15px; cursor:pointer; border:1px solid #ccc; border-left:none; border-radius:0 4px 4px 0;">🔍</button>
+            </form>
+        </div>
+        <div id="user-display"></div>
+        <div class="nav-links" id="nav-links"></div>
+    </nav>
+
+    <div class="container">
+        <h2>Our Menu</h2>
+        <div id="menu-container" class="food-grid">
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

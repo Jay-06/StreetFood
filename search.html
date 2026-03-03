@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search - Fast Online Street Food</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="home.html" class="logo">Street Food</a>
+        <div id="user-display"></div>
+        <div class="nav-links" id="nav-links"></div>
+    </nav>
+
+    <div class="container">
+        <h2>Search Results</h2>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Type food name to search..." onkeyup="performSearch()">
+            <a href="home.html" class="btn" style="text-decoration:none; text-align:center; width:100px;">Back</a>
+        </div>
+        <div id="search-results" class="food-grid">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
